@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+header{
+    background: rgb(255,255,255);
+background: linear-gradient(141deg, rgba(255,255,255,1) 0%, rgba(231,211,255,1) 24%, rgba(166,246,254,1) 48%, rgba(142,253,135,1) 65%, rgba(70,187,252,1) 100%);
+    height: 500px;
+}
+.logo{
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+    height: 75%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@keyframes logo{
+    0% {background-image: url(../the-learning-project/tlp-img/logo1.png);}
+    50% {background-image: url(../the-learning-project/tlp-img/logo2.png);}
+    100% {background-image: url(../the-learning-project/tlp-img/logo3.png)}
+}
+main{
+    height: 800px;
+}
